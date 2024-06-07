@@ -50,7 +50,7 @@ ScavTrap::ScavTrap(ScavTrap const &other)
 
 void ScavTrap::guardGate(void)
 {
-	std::cout << "ScavTrap " << this->name << "is in the Gate keeper form" << std::endl;
+	std::cout << "ScavTrap " << this->name << " is in the Gate keeper form" << std::endl;
 }
 
 void ScavTrap::attack(std::string const &target)
